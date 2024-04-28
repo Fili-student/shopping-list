@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+display: flex;
+flex-direction: column;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 5px;
+}
+h2{
+    color: white;
+}
+header{
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    background-color: rgb(204, 193, 44);
+    margin-bottom: 40px;
+}
+nav{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;   
+    font-size: 30px;
+    padding-top: 26px;
+}
+nav > a{
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+nav > a:hover{
+    color: rgb(5, 148, 129);
+}
+/* --------------------------------------------------------------- */
+main{
+    background-color: rgb(204, 193, 44);
+    height: 70vh;
+    width: 50vw;
+     display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+}
+h2{
+
+}
