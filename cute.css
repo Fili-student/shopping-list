@@ -1,6 +1,10 @@
 body{
-    background-image: url(https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-display: flex;
+    /* background-image: url(./Design.jpeg);
+    */
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/21/16/18/strawberries-7276120_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
 flex-direction: column;
 margin: 0;
 padding: 0;
@@ -18,7 +22,7 @@ header{
     display: flex;
     height: 15vh;
     justify-content: space-around;
-    background-color: rgb(204, 193, 44);
+    background-color: rgb(48, 55, 158);
     margin-bottom: 40px;
 }
 nav{
@@ -35,11 +39,11 @@ nav >.oben{
     color: white;
 }
 nav >.oben:hover{
-    color: rgb(5, 148, 129);
+color: rgb(226, 99, 99);
 }
 /* --------------------------------------------------------------- */
 main{
-    background-color: rgb(204, 193, 44);
+    background-color: rgb(226, 99, 99);
     height: 70vh;
     width: 50vw;
      display: flex;
@@ -58,8 +62,8 @@ p{
     font-size: 22px;
 }
 li{
-    color: rgb(5, 148, 129);
-    font-size: 25px;
+    color: rgb(48, 55, 158);
+    font-size: 29px;
     line-height: 40px;
 }
 input{
@@ -67,15 +71,16 @@ input{
 
 }
 input:focus {
-    background-color: rgb(5, 148, 129);
-    color: white;
+    background-color: rgb(188, 213, 250);
+    color: rgb(48, 55, 158);
     border: 3px solid #db7bc6;
 }
   
 button{
     width: 200px;
     font-size: 30px;
-    background-color: rgb(5, 148, 129) ;
+    background-color: rgb(48, 55, 158);
+    
     border-radius: 10px;
     color: white;
 }
@@ -86,10 +91,22 @@ footer{
     margin-right: 110px;
 }
 footer > button{
-    background-color: rgb(204, 193, 44);
+    background-color: rgb(48, 55, 158);
+    
    height: 40px; 
 }
+
+.back{
+    background-color:  rgb(48, 55, 158);
+    color: white;
+    font-size:28px;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 2px;
+}
+
 .fa-solid{
-   color: rgb(5, 148, 129);
+    color: rgb(226, 99, 99);
    font-size: 60px;
+
 }
