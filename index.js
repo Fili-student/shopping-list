@@ -29,16 +29,10 @@ input.addEventListener("keydown", (event) => {
     if (event.target.tagName === "LI") { // Check if the clicked element is a list item
     ul.removeChild(event.target);
     }
+ });
+});
 
-
-
-
-  });
-  });
-
-
-
-  alles.addEventListener("click", function() {
+alles.addEventListener("click", function() {
     wegMitAllem();
     });
 

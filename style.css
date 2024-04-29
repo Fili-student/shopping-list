@@ -47,6 +47,7 @@ main{
     margin: auto;
     padding-top: 50px;
     border-radius: 40px;
+    overflow: scroll;
     
 }
 
@@ -93,3 +94,5 @@ footer > button{
    color: rgb(5, 148, 129);
    font-size: 60px;
 }
+
+/* @media screen and (max-width:1439px) and (min-width:694px){} */
